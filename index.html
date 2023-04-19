@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ilenia Portfolio diobono</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/190c3ced46.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="cuphead-logo.png" class="logo">
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a> </li>
+        <li><a href="#about">About</a> </li>
+        <li><a href="#services">Services</a> </li>
+        <li><a href="#portfolio">Portfolio</a> </li>
+        <li><a href="#contact">Contatti</a> </li>
+        <i class="fa-solid fa-x" onclick="closemenu()"></i>
+      </ul>
+       <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <p>Disegnatore meccanico</p>
+      <h1>Hi, I'm <span>Ossama</span> <br>from Italy</h1>
+
+    </div>
+  </div>
+</div>
+
+<!-- about -->
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+       <img src="about-oz.jpg" class="oz-about">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+       <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+        <p class="tab-links" onclick="opentab('education')">Education</p>
+       </div>
+       <div class="tab-contents active-tab" id="skills">
+         <ul>
+           <li><span>Disegnatore</span><br> Disegno parti meccaniche </li>
+           <li><span>Gamer</span><br> Gioco ai videogiochi </li>
+           <li><span>Lover</span><br> Sono il prototipo di amante perfetto </li>
+         </ul>
+        </div>
+       <div class="tab-contents" id="experience">
+         <ul>
+           <li><span>2021-current</span><br>Disegnatore meccanico per Barrrrone</li>
+           <li><span>2020-2021</span><br> Amazon </li>
+           <li><span>before 2020</span><br>Non esistevo </li>
+         </ul>
+       </div>
+       <div class="tab-contents" id="education">
+         <ul>
+           <li><span>Corso ignoto</span><br>Passato corso per disegnare solidi  </li>
+           <li><span>Uni Bg</span><br> Iscritto a ingenieria meccanica</li>
+           <li><span>Scuola superiore</span><br> High school musical Covo </li>
+         </ul>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- services----------->
+
+<div id="services">
+  <div class="container">
+      <h1 class="sub-title">I miei servizi</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-sharp fa-solid fa-pen-ruler"></i>
+          <h2>Disegnatore meccanico</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+      <i class="fa-sharp fa-solid fa-gamepad"></i>
+          <h2>Gamer</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+      <i class="fa-sharp fa-solid fa-heart"></i>
+          <h2>Lover</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- Portfolio -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">I miei lavori</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="work-1.jpg">
+        <div class="layer">
+          <h3>Bus engineering</h3>
+          <p>Io e la mia poci che ingenieriamo sul bus, con stile</p>
+          <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="work-2.jpg">
+        <div class="layer">
+        <h3>It's DRiPPiNG</h3>
+        <p>Gamer boi dripping bussing on tha pussy hard cock boi</p>
+        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="work-3.jpg">
+        <div class="layer">
+        <h3>La città proibita</h3>
+        <p>Una delle mie scoperte recenti, una città sommersa da 50 metri di antica cumma ateniese</p>
+        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!-- contact -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+       <h1 class="sub-title">Contattami</h1>
+       <p><i class="fa-solid fa-paper-plane"></i>ossamoul@mailme.com</p>
+       <p><i class="fa-solid fa-phone"></i>347573965</p>
+       <div class="social-icons">
+         <a href="#"><i class="fa-brands fa-facebook"></i></a>
+         <a href="#"><i class="fa-brands fa-twitter"></i></a>
+         <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+       </div>
+       <a href="firma-23.pdf"download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+       <form name="submit-to-google-sheet">
+         <input type="text" name="Nome" placeholder="Il tuo nome" required>
+         <input type="email" name="Email" placeholder="La tua email" required>
+         <textarea name="Messaggio" rows="6" placeholder="Il tuo messaggio"></textarea>
+         <button type="submit" class="btn btn2">Submit</button>
+       </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Made with <i class="fa-solid fa-heart"></i> by Poci.</p>
+  </div>
+</div>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove ('active-link');
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove ('active-tab');
+  }
+event.currentTarget.classList.add('active-link');
+document.getElementById(tabname).classList.add('active-tab');
+}
+
+</script>
+
+<script>
+
+var sidemenu = document.getElementById('sidemenu');
+
+function openmenu(){
+   sidemenu.style.right = '0';
+}
+function closemenu(){
+   sidemenu.style.right = '-200px';
+}
+
+</script>
+
+<script>
+  const scriptURL = '<https://script.google.com/macros/library/d/1XdceXVFpKFo_Hvj_sDmwhBi1QF8xH9FBl6Hf9gs_i4WS9Cko5da0g2zD/1>'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+  </body>
+</html>
